@@ -1,0 +1,153 @@
+body{
+	background-color: black;
+}
+	
+	h1{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+	
+}
+
+#box{
+   background-color: brown;
+   border:  3px solid black;
+   width: 65px;
+   height: 30px;
+   float: right;
+   position: relative;
+   bottom: 14px;
+   left: 10px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 100%;
+}
+#content{
+	margin: 20px;
+	float: both;
+}
+*{
+box-sizing: border-box;
+}
+
+#corner{
+   background-color: aqua;
+   border:  3px solid black;
+   width: 65px;
+   height: 30px;
+   float: right;
+   position: relative;
+   bottom: 14px;
+   left: 10px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 100%;
+}
+
+#lap{
+   background-color: wheat;
+   border:  3px solid black;
+   width: 65px;
+   height: 30px;
+   float: right;
+   position: relative;
+   bottom: 14px;
+   left: 10px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 100%;
+}
+
+.row{
+	width: 100%;
+}
+@media (min-width: 992px) {
+#bb, #sushi, #boder{
+	float: left;
+	border: 3px solid black;
+
+}
+#bb{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 33.33%;
+}
+
+#sushi{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 28.34%;
+}
+
+#boder{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 28.34%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#bb, #sushi, #boder{
+	float: left;
+	border: 3px solid black;
+
+}
+#bb{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 50%;
+}
+
+#sushi{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 50%;
+}
+
+#boder{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 100%;
+}
+
+	
+}
+
+@media (max-width: 767px){
+	#bb, #sushi, #boder{
+	float: left;
+	border: 3px solid black;
+
+}
+#bb{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 100%;
+}
+
+#sushi{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 100%;
+}
+
+#boder{
+	background-color: grey;
+	padding: 10px;
+	margin: 20px;
+	width: 100%;
+}
+
+
+}
