@@ -95,7 +95,7 @@ box-sizing: border-box;
 @media (min-width: 768px) and (max-width: 991px) {
 	#bb, #sushi, #boder{
 	float: left;
-	border: 3px solid black;
+	border: 3px solid white;
 
 }
 #bb{
@@ -125,7 +125,7 @@ box-sizing: border-box;
 @media (max-width: 767px){
 	#bb, #sushi, #boder{
 	float: left;
-	border: 3px solid black;
+	border: 3px solid white;
 
 }
 #bb{
