@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: #456687;
 }
 	
 	h1{
@@ -13,13 +13,13 @@ body{
 
 #box{
    background-color: brown;
-   border:  3px solid black;
+   border:  1px solid black;
    width: 65px;
    height: 30px;
    float: right;
    position: relative;
-   bottom: 14px;
-   left: 10px;
+   bottom: 12px;
+   left: 10.5px;
    font-weight: bold;
    text-align: center;
    font-size: 100%;
@@ -34,12 +34,12 @@ box-sizing: border-box;
 
 #corner{
    background-color: aqua;
-   border:  3px solid black;
+   border:  1px solid black;
    width: 65px;
    height: 30px;
    float: right;
    position: relative;
-   bottom: 14px;
+   bottom: 12px;
    left: 10px;
    font-weight: bold;
    text-align: center;
@@ -48,13 +48,13 @@ box-sizing: border-box;
 
 #lap{
    background-color: wheat;
-   border:  3px solid black;
+   border:  1px solid black;
    width: 65px;
    height: 30px;
    float: right;
    position: relative;
-   bottom: 14px;
-   left: 10px;
+   bottom: 12px;
+   left: 10.5px;
    font-weight: bold;
    text-align: center;
    font-size: 100%;
@@ -63,10 +63,14 @@ box-sizing: border-box;
 .row{
 	width: 100%;
 }
+p{
+	font-family: helvitica;
+	font-style: italic;
+}
 @media (min-width: 992px) {
 #bb, #sushi, #boder{
 	float: left;
-	border: 3px solid white;
+	border: 1px solid black;
 
 }
 #bb{
@@ -95,7 +99,7 @@ box-sizing: border-box;
 @media (min-width: 768px) and (max-width: 991px) {
 	#bb, #sushi, #boder{
 	float: left;
-	border: 3px solid white;
+	border: 1px solid black;
 
 }
 #bb{
@@ -125,7 +129,7 @@ box-sizing: border-box;
 @media (max-width: 767px){
 	#bb, #sushi, #boder{
 	float: left;
-	border: 3px solid white;
+	border: 1px solid black;
 
 }
 #bb{
